@@ -3,7 +3,7 @@ name: Githuib Actions test
 on:
   push:
     branches:
-      - ci_test
+      - test/ci_cd
 jobs:
   first_job:
     runs-on: ubuntu-20.04
