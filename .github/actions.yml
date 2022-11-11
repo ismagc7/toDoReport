@@ -1,0 +1,13 @@
+name: Githuib Actions test
+
+on:
+  push:
+    branches:
+      - ci_test
+jobs:
+  first_job:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: first_step
+        run: | 
+          echo "first step"
